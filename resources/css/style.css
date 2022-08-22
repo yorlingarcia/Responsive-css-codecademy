@@ -239,15 +239,27 @@ header .mobile {
 /* Features Section */
 
 #features-section {
+  max-width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
   background-color: #f3f3f3;
   margin: 0;
   padding: 4rem 5% 2.875rem 5%;
+  overflow-x: hidden;
 }
 
 .feature {
-  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
   padding: 2rem;
   margin: 0px 1.1875rem;
   background-color: white;
@@ -256,7 +268,7 @@ header .mobile {
 .feature .image-container {
   width: 90%;
   height: 65%;
-  margin: 0 auto;
+  margin: 0;
   line-height: 1.2;
 }
 
@@ -307,8 +319,13 @@ header .mobile {
 /* Filters Section */
 
 #filters-section {
-  padding: 4rem 0;
+  padding: 4rem 1%;
   background-color: #4a4a4a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 #filters-section .content {
@@ -330,6 +347,8 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: flex;
+  flex-direction: row;
   max-width: 100%;
   padding: 0 1%;
 }
