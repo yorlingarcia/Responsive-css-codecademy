@@ -387,22 +387,20 @@ header .mobile {
 
 #quotes-section {
   background-color: #f3f3f3;
-}
-
-#quotes-section content {
+  margin: 0;
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
-  font-family: "Palatino", serif;
+  font-family: "Palatino-Italic", serif;
   font-size: 1.875rem;
   line-height: 1.1;
   font-style: italic;
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
   height: 1.875rem;
 }
 
