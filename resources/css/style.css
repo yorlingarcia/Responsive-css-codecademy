@@ -425,17 +425,36 @@ header .mobile {
 
 footer {
   background-color: #9b9b9b;
-  padding: 1.5rem 2rem;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 3.875rem;
 }
 
 footer .content {
   color: white;
-  display: flex;
   font-size: 0.75rem;
+  margin: auto;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+footer p {
+  padding: 0;
+  margin: 0;
+  height: auto;
 }
 
 footer .copyright {
-  flex-grow: 1;
+  display: inline-block;
+}
+footer .location {
+  display: inline-block;
 }
 
 @media only screen and (min-width: 760px) {
